@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "de-de"
+title = "im Praxiseinsatz"
+
+[params]
+BookTheme = 'light'
+BookLogo = './img/mapproxy.png'
+BookToc = false
+custom_css = ['assets/custom.css']
+BookMenuBundle = '/menu'
