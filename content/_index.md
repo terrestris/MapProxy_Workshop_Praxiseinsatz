@@ -31,7 +31,7 @@ MapProxy ist eine quelloffene, performante und funktionsreiche Software-Lösung 
 - Nachträgliche Bildbearbeitung (z.B. Kanalkombinationen, Komposite erstellen, Graustufen)
 - HQ / Retina Kacheln erzeugen
 
-![Konfig-Überblick.png](./img/mapproxy-overview.png)
+![Konfig-Überblick.png](/img/mapproxy-overview.png)
 
 ## Wer entwickelt MapProxy?
 Ein internationales Team von Entwicklern - jeder ist willkommen zur Weiterentwicklung beizutragen. Die Diskussion für neue Features läuft über die [Mailingliste](https://mapproxy.org/support) und direkt im [github Repository](https://github.com/mapproxy).

@@ -1,10 +1,11 @@
 baseURL = "https://hblitza.github.io/MapProxy_Workshop_Praxiseinsatz/"
 languageCode = "de-de"
 title = "im Praxiseinsatz"
+canonifyURLs = true
 
 [params]
 BookTheme = 'light'
-BookLogo = './img/mapproxy.png'
+BookLogo = '/img/mapproxy.png'
 BookToc = false
 custom_css = ['assets/custom.css']
 BookMenuBundle = '/menu'
