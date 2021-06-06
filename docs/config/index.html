@@ -1,0 +1,152 @@
+<!doctype html><html lang=en dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Konfiguration #  MapProxy wird mittels übersichtlichen yaml-Dateien konfiguriert, wobei ebenso eine JSON-Konfiguration gültig ist. Sämtliche Beispiele in der Dokumentation sind in YAML beschrieben.
+Es sind Key-Value-Paare und Listen möglich:
+ options-name: value [1,2,3] Wichtig zu beachten: korrekte Einrückung Leerzeichen nach Doppelpunkt Anführungszeichen um Strings -> [&ldquo;EPSG:4326&rdquo;]  Die zentrale Konfigurationsdatei ist die mapproxy.yaml, nachfolgend ein Auszug aus einem Beispiel:
+services: demo: wms: srs: ['EPSG:4326', 'EPSG:900913', 'EPSG:3857', 'EPSG:4258', 'EPSG:26915'] # image_formats: ['image/jpeg', 'image/png'] md: # metadata used in capabilities documents title: MapProxy WMS Proxy abstract: This is the fantastic MapProxy."><meta name=theme-color content="#FFFFFF"><meta property="og:title" content><meta property="og:description" content><meta property="og:type" content="website"><meta property="og:url" content="https://hblitza.github.io/MapProxy_Workshop_Praxiseinsatz/docs/config/"><title>Config | im Praxiseinsatz</title><link rel=manifest href=/MapProxy_Workshop_Praxiseinsatz/manifest.json><link rel=icon href=/MapProxy_Workshop_Praxiseinsatz/favicon.png type=image/x-icon><link rel=stylesheet href=/MapProxy_Workshop_Praxiseinsatz/book.min.3e90539cf7130f0a89ba2f8b9f54ac5e5ecdd1fa345b6c8e3e5a83ec6f19ec8e.css integrity="sha256-PpBTnPcTDwqJui+Ln1SsXl7N0fo0W2yOPlqD7G8Z7I4=" crossorigin=anonymous><script defer src=/MapProxy_Workshop_Praxiseinsatz/flexsearch.min.js></script><script defer src=/MapProxy_Workshop_Praxiseinsatz/en.search.min.41770a1751b7c9e8e7889825bd7727e91afc43bab75b1bdc4909b375ea0d2baf.js integrity="sha256-QXcKF1G3yejniJglvXcn6Rr8Q7q3WxvcSQmzdeoNK68=" crossorigin=anonymous></script><link rel=alternate type=application/rss+xml href=https://hblitza.github.io/MapProxy_Workshop_Praxiseinsatz/docs/config/index.xml title="im Praxiseinsatz"></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a href=/MapProxy_Workshop_Praxiseinsatz/><img src=/MapProxy_Workshop_Praxiseinsatz/img/mapproxy.png alt=Logo><span>im Praxiseinsatz</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><a href=/MapProxy_Workshop_Praxiseinsatz/>Einführung</a><ul><li><a href=/MapProxy_Workshop_Praxiseinsatz/docs/introduction/sources/>Quellen / Dienste</a></li><li><a href=/MapProxy_Workshop_Praxiseinsatz/docs/introduction/installation/>Installation</a></li></ul></li><li><a href=/MapProxy_Workshop_Praxiseinsatz/docs/config/ class=active>Konfiguration</a><ul><li><a href=/MapProxy_Workshop_Praxiseinsatz/docs/config/bausteine/>Bausteine</a></li></ul></li></ul></nav><script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/MapProxy_Workshop_Praxiseinsatz/svg/menu.svg class=book-icon alt=Menu></label>
+<strong>Config</strong>
+<label for=toc-control></label></div></header><article class=markdown><h1 id=konfiguration>Konfiguration
+<a class=anchor href=#konfiguration>#</a></h1><p>MapProxy wird mittels übersichtlichen yaml-Dateien konfiguriert, wobei ebenso eine JSON-Konfiguration gültig ist. Sämtliche Beispiele in der Dokumentation sind in YAML beschrieben.<br>Es sind Key-Value-Paare und Listen möglich:</p><ul><li>options-name: value</li><li>[1,2,3]
+Wichtig zu beachten:</li><li>korrekte Einrückung</li><li>Leerzeichen nach Doppelpunkt</li><li>Anführungszeichen um Strings -> [&ldquo;EPSG:4326&rdquo;]</li></ul><p>Die zentrale Konfigurationsdatei ist die <code>mapproxy.yaml</code>, nachfolgend ein Auszug aus einem Beispiel:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#f92672>services</span>:
+  <span style=color:#f92672>demo</span>:
+  <span style=color:#f92672>wms</span>:
+    <span style=color:#f92672>srs</span>: [<span style=color:#e6db74>&#39;EPSG:4326&#39;</span>, <span style=color:#e6db74>&#39;EPSG:900913&#39;</span>, <span style=color:#e6db74>&#39;EPSG:3857&#39;</span>, <span style=color:#e6db74>&#39;EPSG:4258&#39;</span>, <span style=color:#e6db74>&#39;EPSG:26915&#39;</span>]
+    <span style=color:#75715e># image_formats: [&#39;image/jpeg&#39;, &#39;image/png&#39;]</span>
+    <span style=color:#f92672>md</span>:
+      <span style=color:#75715e># metadata used in capabilities documents</span>
+      <span style=color:#f92672>title</span>: <span style=color:#ae81ff>MapProxy WMS Proxy</span>
+      <span style=color:#f92672>abstract</span>: <span style=color:#ae81ff>This is the fantastic MapProxy.</span>
+      <span style=color:#f92672>online_resource</span>: <span style=color:#ae81ff>http://mapproxy.org/</span>
+      <span style=color:#f92672>contact</span>:
+        <span style=color:#f92672>person</span>: <span style=color:#ae81ff>Your Name Here</span>
+        <span style=color:#f92672>position</span>: <span style=color:#ae81ff>Technical Director</span>
+      <span style=color:#f92672>access_constraints</span>:
+        <span style=color:#ae81ff>This service is intended for private and evaluation use only.</span>
+        <span style=color:#ae81ff>The data is licensed as Creative Commons Attribution-Share Alike 2.0</span>
+        <span style=color:#ae81ff>(http://creativecommons.org/licenses/by-sa/2.0/)</span>
+      <span style=color:#f92672>fees</span>: <span style=color:#e6db74>&#39;None&#39;</span>
+
+<span style=color:#f92672>layers</span>:
+  - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>mapnik</span>
+    <span style=color:#f92672>title</span>: <span style=color:#ae81ff>World population (Mapnik)</span>
+    <span style=color:#f92672>sources</span>: [<span style=color:#ae81ff>mapnik]</span>
+
+<span style=color:#f92672>caches</span>:
+  <span style=color:#f92672>mapnik_cache</span>:
+    <span style=color:#f92672>grids</span>: [<span style=color:#ae81ff>GLOBAL_MERCATOR]</span>
+    <span style=color:#f92672>sources</span>: [<span style=color:#ae81ff>tilestache]</span>
+
+<span style=color:#f92672>sources</span>:
+  <span style=color:#f92672>geoserver</span>:
+    <span style=color:#f92672>type</span>: <span style=color:#ae81ff>wms</span>
+    <span style=color:#f92672>wms_opts</span>:
+      <span style=color:#f92672>featureinfo</span>: <span style=color:#66d9ef>true</span>
+    <span style=color:#f92672>req</span>:
+      <span style=color:#f92672>url</span>: <span style=color:#ae81ff>http://localhost:8082/geoserver/wms?</span>
+      <span style=color:#f92672>layers</span>: <span style=color:#e6db74>&#39;topp:states&#39;</span>
+      <span style=color:#f92672>transparent</span>: <span style=color:#66d9ef>true</span>
+    <span style=color:#f92672>coverage</span>:
+      <span style=color:#f92672>bbox</span>: -<span style=color:#ae81ff>124.73142200000001</span>,<span style=color:#ae81ff>24.955967</span>,-<span style=color:#ae81ff>66.969849</span>,<span style=color:#ae81ff>49.371735</span>
+      <span style=color:#f92672>bbox_srs</span>: <span style=color:#e6db74>&#39;EPSG:4326&#39;</span>
+
+
+<span style=color:#f92672>grids</span>:
+  <span style=color:#f92672>global_geodetic_sqrt2</span>:
+    <span style=color:#f92672>base</span>: <span style=color:#ae81ff>GLOBAL_GEODETIC</span>
+    <span style=color:#f92672>res_factor</span>: <span style=color:#e6db74>&#39;sqrt2&#39;</span>
+  <span style=color:#f92672>global_mercator_inverse</span>:
+    <span style=color:#f92672>base</span>: <span style=color:#ae81ff>GLOBAL_MERCATOR</span>
+    <span style=color:#f92672>origin</span>: <span style=color:#ae81ff>nw</span>
+
+  <span style=color:#75715e># # cache options</span>
+  <span style=color:#f92672>cache</span>:
+    <span style=color:#75715e># where to store the cached images</span>
+    <span style=color:#f92672>base_dir</span>: <span style=color:#e6db74>&#39;/tmp/mapproxy/cache_data&#39;</span>
+    <span style=color:#75715e># where to store lockfiles</span>
+    <span style=color:#f92672>lock_dir</span>: <span style=color:#e6db74>&#39;/tmp/mapproxy/cache_data/locks&#39;</span>
+  <span style=color:#75715e>#   # request x*y tiles in one step</span>
+  <span style=color:#75715e>#   meta_size: [4, 4]</span>
+  <span style=color:#75715e>#   # add a buffer on all sides (in pixel) when requesting</span>
+  <span style=color:#75715e>#   # new images</span>
+  <span style=color:#75715e>#   meta_buffer: 80</span>
+
+</code></pre></div><h2 id=seeding>Seeding
+<a class=anchor href=#seeding>#</a></h2><p>Neben dieser Haupt-Konfigurationsdatei wird oftmals eine Konfigurationsdatei für eine <code>mapproxy-seed</code> eingesetzt:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># ####################################s################################</span>
+<span style=color:#75715e>#               MapProxy example seed configuration</span>
+<span style=color:#75715e># #####################################################################</span>
+<span style=color:#75715e>#</span>
+<span style=color:#75715e># This is _not_ a runnable configuration, but it contains most</span>
+<span style=color:#75715e># available options in meaningful combinations.</span>
+<span style=color:#75715e>#</span>
+<span style=color:#75715e># Use this file in addition to the documentation to see where and how</span>
+<span style=color:#75715e># things can be configured.</span>
+
+<span style=color:#f92672>seeds</span>:
+  <span style=color:#f92672>myseed1</span>:
+    <span style=color:#75715e># seed all grids of this cache</span>
+    <span style=color:#f92672>caches</span>: [<span style=color:#ae81ff>osm_cache]</span>
+    <span style=color:#f92672>levels</span>:
+      <span style=color:#f92672>to</span>: <span style=color:#ae81ff>10</span>
+    <span style=color:#f92672>refresh_before</span>:
+      <span style=color:#75715e># re-generate tiles older than this date</span>
+      <span style=color:#f92672>time</span>: <span style=color:#e6db74>2013-10-10T12:35:00</span>
+
+  <span style=color:#f92672>myseed2</span>:
+    <span style=color:#75715e># seed two caches, but only GLOBAL_GEODETIC grid</span>
+    <span style=color:#f92672>caches</span>: [<span style=color:#ae81ff>cache1, cache2]</span>
+    <span style=color:#f92672>grids</span>: [<span style=color:#ae81ff>GLOBAL_GEODETIC]</span>
+    <span style=color:#f92672>levels</span>:
+      <span style=color:#f92672>to</span>: <span style=color:#ae81ff>14</span>
+    <span style=color:#f92672>refresh_before</span>:
+      <span style=color:#75715e># re-generate tiles older than the modification time</span>
+      <span style=color:#75715e># of this file. on linux/unix use `touch` to change the time.</span>
+      <span style=color:#f92672>mtime</span>: <span style=color:#ae81ff>./reseed.time</span>
+
+<span style=color:#f92672>cleanups</span>:
+  <span style=color:#f92672>cleanup_older_tiles</span>:
+    <span style=color:#f92672>caches</span>: [<span style=color:#ae81ff>osm_cache]</span>
+    <span style=color:#f92672>remove_before</span>:
+      <span style=color:#f92672>days</span>: <span style=color:#ae81ff>30</span>
+    <span style=color:#f92672>levels</span>:
+        <span style=color:#f92672>from</span>: <span style=color:#ae81ff>16</span>
+
+  <span style=color:#f92672>remove_complete_levels</span>:
+    <span style=color:#f92672>caches</span>: [<span style=color:#ae81ff>cache1]</span>
+    <span style=color:#75715e># remove all tiles regardless of the timestamp.</span>
+    <span style=color:#75715e># will remove the complete level directory for `file` caches</span>
+    <span style=color:#f92672>remove_all</span>: <span style=color:#66d9ef>true</span>
+    <span style=color:#f92672>levels</span>: [<span style=color:#ae81ff>14</span>, <span style=color:#ae81ff>18</span>, <span style=color:#ae81ff>19</span>, <span style=color:#ae81ff>20</span>]
+
+  <span style=color:#f92672>remove_changes</span>:
+    <span style=color:#f92672>caches</span>: [<span style=color:#ae81ff>cache1]</span>
+    <span style=color:#75715e># be careful when using cleanup with coverages, since it needs to check</span>
+    <span style=color:#75715e># every possible tile in this coverage (as reported by</span>
+    <span style=color:#75715e># `mapproxy-util grids --coverage`). only use small coverages and/or limit</span>
+    <span style=color:#75715e># levels</span>
+    <span style=color:#f92672>coverages</span>: [<span style=color:#ae81ff>changed_area]</span>
+    <span style=color:#75715e># without remove_before: remove all tiles created before you called</span>
+    <span style=color:#75715e># mapproxy-seed. i.e. tiles created before with in this seed run</span>
+    <span style=color:#75715e># are not removed</span>
+    <span style=color:#f92672>levels</span>:
+        <span style=color:#f92672>from</span>: <span style=color:#ae81ff>14</span>
+        <span style=color:#f92672>to</span>: <span style=color:#ae81ff>17</span>
+
+<span style=color:#f92672>coverages</span>:
+  <span style=color:#f92672>germany</span>:
+    <span style=color:#75715e># any source supported by OGR</span>
+    <span style=color:#f92672>datasource</span>: <span style=color:#e6db74>&#39;shps/world_boundaries_m.shp&#39;</span>
+    <span style=color:#f92672>where</span>: <span style=color:#e6db74>&#39;CNTRY_NAME = &#34;Germany&#34;&#39;</span>
+    <span style=color:#f92672>srs</span>: <span style=color:#e6db74>&#39;EPSG:3857&#39;</span>
+  <span style=color:#f92672>austria</span>:
+    <span style=color:#75715e># simple bbox</span>
+    <span style=color:#f92672>bbox</span>: [<span style=color:#ae81ff>9.36</span>, <span style=color:#ae81ff>46.33</span>, <span style=color:#ae81ff>17.28</span>, <span style=color:#ae81ff>49.09</span>]
+    <span style=color:#f92672>srs</span>: <span style=color:#e6db74>&#34;EPSG:4326&#34;</span>
+  <span style=color:#f92672>switzerland</span>:
+    <span style=color:#75715e># text file with WKT (Multi)Polygons</span>
+    <span style=color:#f92672>datasource</span>: <span style=color:#e6db74>&#39;polygons/SZ.txt&#39;</span>
+    <span style=color:#f92672>srs</span>: <span style=color:#e6db74>&#34;EPSG:3857&#34;</span>
+  <span style=color:#f92672>changed_area</span>:
+    <span style=color:#75715e># example with PostGIS query</span>
+    <span style=color:#f92672>datasource</span>: <span style=color:#e6db74>&#34;PG: dbname=&#39;db&#39; host=&#39;host&#39; user=&#39;user&#39; password=&#39;password&#39;&#34;</span>
+    <span style=color:#f92672>where</span>: <span style=color:#e6db74>&#34;select * from last_changes&#34;</span>
+    <span style=color:#f92672>srs</span>: <span style=color:#e6db74>&#39;EPSG:3857&#39;</span>
+</code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div></main></body></html>
