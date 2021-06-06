@@ -54,26 +54,10 @@ sources:
       bbox: -124.73142200000001,24.955967,-66.969849,49.371735
       bbox_srs: 'EPSG:4326'
 
-
 grids:
-  global_geodetic_sqrt2:
-    base: GLOBAL_GEODETIC
-    res_factor: 'sqrt2'
   global_mercator_inverse:
     base: GLOBAL_MERCATOR
     origin: nw
-
-  # # cache options
-  cache:
-    # where to store the cached images
-    base_dir: '/tmp/mapproxy/cache_data'
-    # where to store lockfiles
-    lock_dir: '/tmp/mapproxy/cache_data/locks'
-  #   # request x*y tiles in one step
-  #   meta_size: [4, 4]
-  #   # add a buffer on all sides (in pixel) when requesting
-  #   # new images
-  #   meta_buffer: 80
 
   ```
 
