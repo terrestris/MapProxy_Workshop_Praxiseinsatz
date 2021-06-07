@@ -2,11 +2,12 @@
 headless = true
 +++
 
-- [__Einführung__]({{< relref "/" >}})
-    - [Quellen / Dienste]({{< relref "/docs/introduction/sources.md" >}})
-    - [Installation]({{< relref "/docs/introduction/installation.md" >}})
-    - [Caches]({{< relref "/docs/introduction/caches.md" >}})
-    - [Grids]({{< relref "/docs/introduction/grids.md" >}})
+- [__Preface__]({{< relref "/" >}})
+- [__Einführung__]({{< relref "docs/introduction" >}})
+    - [Quellen / Dienste]({{< relref "docs/introduction/sources.md" >}})
+    - [Installation]({{< relref "docs/introduction/installation.md" >}})
+    - [Caches]({{< relref "docs/introduction/caches.md" >}})
+    - [Grids]({{< relref "docs/introduction/grids.md" >}})
 - [__Konfiguration__]({{< relref "/docs/config/_index.md" >}})
     - [Bausteine]({{< relref "/docs/config/bausteine.md" >}})
     - [mapproxy.yaml]({{< relref "/docs/config/mapproxy.yaml.md" >}})

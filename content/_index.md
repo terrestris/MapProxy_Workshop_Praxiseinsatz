@@ -1,45 +1,12 @@
----
-title: Einleitung
-type: docs
----
+# MapProxy im Praxiseinsatz
 
-<link rel="stylesheet" href="./assets/custom.css">
+Herzlich Willkommen beim **MapProxy im Praxiseinsatz** Workshop.
 
-# Einleitung
+Dieser Workshop wurde für die Verwendung auf der OSGeo-Live 14.0 DVD entwickelt und soll Ihnen einen umfassenden Überblick über die Funktionen von MapProxy geben. Bitte stellen Sie sicher, dass Sie die Schritte zum Setup ausgeführt haben, um einen reibungslosen Ablauf zu gewährleisten.
 
-## Was ist MapProxy?
+## Autoren
 
-MapProxy ist eine quelloffene, performante und funktionsreiche Software-Lösung zum Beschleunigen, Cachen, Weiterleiten und Absichern von Diensten. Gestartet in 2008 von der Firma [Omniscale](https://www.omniscale.de), hat sich MapProxy zu einem viel genutzten, etablierten OS Geo Tool entwickelt, das in vielen Geodateninfrastrukturen zum festen Bestandteil geworden ist. MapProxy ist in Python geschrieben und folglich OS-unabhängig, es werden verschiedene Python-Bibliotheken benötigt (bspw. für die Projizierung und Bildprozessierung).
+- Hannes Blitza (blitza@terrestris.de)
+- Daniel Koch (koch@terrestris.de)
 
-| Entwickelt in | Python                      |
-|---------------|-----------------------------|
-| Läuft auf     | Linux/Unix Windows, Docker  |
-| Lizenz        | Apache Software Licence 2.0 |
-
-## Was kann MapProxy?
-
-- Vorhandene Dienste Cachen in den unterschiedlichsten Formaten
-- Dienste kombinieren
-- Dienste absichern
-- Reprojizieren
-- Maßstabskonfigurationen
-- Clipping (Dienste auf Masken zuschneiden, Union, Difference, Intersection)
-- Bildoptimierende Prozessierungen
-- Wasserzeichen
-- Kaskadieren von GetFeatureInfo-Requests
-- Individuelles Planen/Managen Erstellen von Caches
-- Nachträgliche Bildbearbeitung (z.B. Kanalkombinationen, Composites, Graustufen)
-- HQ / Retina Kacheln erzeugen
-
-![Konfig-Überblick.png](/img/mapproxy-overview.png)
-
-## Wer entwickelt MapProxy?
-Ein internationales Team von Entwicklern - jeder ist willkommen zur Weiterentwicklung beizutragen. Die Diskussion für neue Features läuft über die [Mailingliste](https://mapproxy.org/support) und direkt im [github Repository](https://github.com/mapproxy).
-
-## Wie bekomme ich Support für die Software?
-
-Es gibt verschiedene Wege Support für MapProxy zu bekommen:
-- Nutzung der Mailingliste (Archiv oder neues Problem schildern)
-- Github
-- Stackoverflow
-- Support-Dienstleistung von GIS-Firma beziehen
+Dieser Workshop basiert auf MapProxy-Schulungs-Material von Oliver Tonnhofer (Omniscale GmbH & Co. KG).  
