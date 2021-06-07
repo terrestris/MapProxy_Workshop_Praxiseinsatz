@@ -9,7 +9,7 @@ type: docs
 
 ## Was ist MapProxy?
 
-MapProxy ist eine quelloffene, performante und funktionsreiche Software-Lösung zum Beschleunigen, Cachen, Weiterleiten und Absichern von Diensten. Gestartet in 2008 von der Firma [Omniscale](https://www.omniscale.de), hat sich MapProxy zu einem viel genutzten, etablierten OS Geo Tool entwickelt, *das nicht mehr wegzudenken ist*. MapProxy ist in Python geschrieben und folglich OS-unabhängig, es werden verschiedene Python-Bibliotheken benötigt (bspw. für die Projizierung und Bildprozessierung).
+MapProxy ist eine quelloffene, performante und funktionsreiche Software-Lösung zum Beschleunigen, Cachen, Weiterleiten und Absichern von Diensten. Gestartet in 2008 von der Firma [Omniscale](https://www.omniscale.de), hat sich MapProxy zu einem viel genutzten, etablierten OS Geo Tool entwickelt, das in vielen Geodateninfrastrukturen zum festen Bestandteil geworden ist. MapProxy ist in Python geschrieben und folglich OS-unabhängig, es werden verschiedene Python-Bibliotheken benötigt (bspw. für die Projizierung und Bildprozessierung).
 
 | Entwickelt in | Python                      |
 |---------------|-----------------------------|

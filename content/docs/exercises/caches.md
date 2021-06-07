@@ -1,7 +1,7 @@
 # Caches
 
 ## Aufgabe 1:
-Konfigurieren Sie einen Cache für den Layer `zürich_ortho` (zunächst nur für das Grid `webmercator`). Stellen Sie anschließend die Source für den Layer `zürich_orthofoto` auf diesen Cache um.  
+Konfigurieren Sie einen Cache für den Layer `zürich_ortho` (zunächst für das Grid `webmercator`). Stellen Sie anschließend die Source für den Layer `zürich_orthofoto` auf diesen Cache um.  
 Erzeugen Sie manuell Requests an den Layer, um den Cache aufzubauen. Hierzu zoomen und panen Sie einfach in der MapProxy Demo auf dem Layer umher. Die Standard-Caching Konfiguration erzeugt Kacheln im Dateisystem. Vergewissern Sie sich, dass im Ordner `cache_data` ein Unterordner für den entsprechenden Layer erstellt wurde und Kacheln abgelegt wurden.
 
 {{< expand >}}

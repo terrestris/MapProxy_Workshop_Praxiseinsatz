@@ -9,3 +9,4 @@ BookLogo = '/img/mapproxy.png'
 BookToc = false
 custom_css = ['assets/custom.css']
 BookMenuBundle = '/menu'
+BookSearch = false
