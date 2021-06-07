@@ -15,7 +15,7 @@ Auf der OS Geo LIVE 14 ist MapProxy in der Version 1.13 installiert. Infos über
 mapproxy-util create -t base-config mapproxy-ws
 ```
 
-3. Navigieren Sie in den neu erstellen Ordner (```cd mapproxy-ws```) und betrachten Sie die Dateien (z.B. mit ```ll -lah```).
+3. Navigieren Sie in den neu erstellen Ordner (```cd mapproxy-ws```) und betrachten Sie die Dateien (z.B. mit ```ls -lah```).
 
 In diesem Workshop werden wir hauptsächlich die Dateien `mapproxy.yaml` und `seed.yaml` arbeiten. Sie enthalten eine Beispiel-Konfiguration, die zunächst in der MapProxy-Demo Seite betrachtet werden können.
 
@@ -27,7 +27,7 @@ mapproxy-util serve-develop -b 8081 mapproxy.yaml
 
 Sollte der Port bereits belegt sein, ändern sie den Parameter -b (`--bind`) auf einen anderen Port.
 
-5. Rufe Sie die MapProxy Demo Seite anschlißend im Browser auf.
+5. Rufen Sie die MapProxy Demo Seite anschließend im Browser auf.
 
 Die Demo Seite ist nützlich, um rasch Änderungen in der Konfiguration zu überprüfen, ist aber nicht für den Produktivbetrieb notwendig. Hier werden sämtliche konfigurierte Dienste und Layer des MapProxys aufgelistet.  
 Deaktivieren Sie zu Demo-Zwecken die TMS und WMTS Endpunkte und überprüfen Sie das Ergebnis auf der Demo Seite.

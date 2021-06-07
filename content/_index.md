@@ -9,7 +9,7 @@ type: docs
 
 ## Was ist MapProxy?
 
-MapProxy ist eine quelloffene, performante und funktionsreiche Software-Lösung zum Beschleunigen, Cachen, Weiterleiten und Absichern von Diensten. Gestartet in 2008 von der Firma [Omniscale](https://www.omniscale.de), hat sich MapProxy zu einem viel genutzten, etablierten OS Geo Tool entwickelt, *dass nicht mehr wegzudenken ist*. MapProxy ist in Python geschrieben und folglich OS-unabhängig, es werden verschiedene Python-Bibliotheken benötigt (bspw. für die Projizierung und Bildprozessierung).
+MapProxy ist eine quelloffene, performante und funktionsreiche Software-Lösung zum Beschleunigen, Cachen, Weiterleiten und Absichern von Diensten. Gestartet in 2008 von der Firma [Omniscale](https://www.omniscale.de), hat sich MapProxy zu einem viel genutzten, etablierten OS Geo Tool entwickelt, *das nicht mehr wegzudenken ist*. MapProxy ist in Python geschrieben und folglich OS-unabhängig, es werden verschiedene Python-Bibliotheken benötigt (bspw. für die Projizierung und Bildprozessierung).
 
 | Entwickelt in | Python                      |
 |---------------|-----------------------------|
@@ -19,16 +19,16 @@ MapProxy ist eine quelloffene, performante und funktionsreiche Software-Lösung 
 ## Was kann MapProxy?
 
 - Vorhandene Dienste Cachen in den unterschiedlichsten Formaten
-- Dienste Kombinieren
-- Dienste Absichern
+- Dienste kombinieren
+- Dienste absichern
 - Reprojizieren
 - Maßstabskonfigurationen
 - Clipping (Dienste auf Masken zuschneiden, Union, Difference, Intersection)
 - Bildoptimierende Prozessierungen
 - Wasserzeichen
-- GetFeatureInfo-Durchleiten
+- Kaskadieren von GetFeatureInfo-Requests
 - Individuelles Planen/Managen Erstellen von Caches
-- Nachträgliche Bildbearbeitung (z.B. Kanalkombinationen, Komposite erstellen, Graustufen)
+- Nachträgliche Bildbearbeitung (z.B. Kanalkombinationen, Composites, Graustufen)
 - HQ / Retina Kacheln erzeugen
 
 ![Konfig-Überblick.png](/img/mapproxy-overview.png)

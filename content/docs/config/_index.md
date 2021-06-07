@@ -1,6 +1,6 @@
 # Konfiguration
 
-MapProxy wird mittels übersichtlichen yaml-Dateien konfiguriert, wobei ebenso eine JSON-Konfiguration gültig ist. Sämtliche Beispiele in der Dokumentation sind in YAML beschrieben.  
+MapProxy wird mittels übersichtlicher yaml-Dateien konfiguriert, wobei ebenso eine JSON-Konfiguration gültig ist. Sämtliche Beispiele in der Dokumentation sind in YAML beschrieben.  
 Es sind Key-Value-Paare und Listen möglich:
   - options-name: value
   - [1,2,3]

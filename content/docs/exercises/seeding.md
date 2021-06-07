@@ -1,7 +1,7 @@
 # Seeding
 
 ## Aufgabe 1:
-Definieren Sie eine Seed Task in der `seed.yaml` für ersten 2 Level des `zürich_cache`. Hierbei soll ein Coverage verwendet werden, dass einen kleinen Ausschnitt von Zürich abbildet (z.B. die Altstadt).  
+Definieren Sie einen Seed Task in der `seed.yaml` für ersten zwei Level des `zürich_cache`. Hierbei soll ein Coverage verwendet werden, das einen kleinen Ausschnitt von Zürich abbildet (z.B. die Altstadt).  
 __Hinweise:__ Existierende `seed.yaml`, https://mapproxy.org/docs/latest/seed.html.
 
 ## Aufgabe 2:
