@@ -1,7 +1,7 @@
 # Sources
 
 ## Aufgabe 1:
-Fügen Sie eine neue Source mit weltweiter Abdeckung hinzu, beispielsweise den TopPlusOpen Dienst des BKG (Bundesmat für Kartographie und Geodäsie) mit der URL: https://sgx.geodatenzentrum.de/wms_topplus_open
+Fügen Sie eine neue Source mit weltweiter Abdeckung hinzu, beispielsweise den TopPlusOpen Dienst des BKG (Bundesamt für Kartographie und Geodäsie) mit der URL: https://sgx.geodatenzentrum.de/wms_topplus_open
 
 ## Aufgabe 2:
 Stellen Sie die WMS-Version der neuen Source auf 1.3.0 und aktivieren Sie `legendgraphic` Option. Laden Sie den Layer in QGIS und überprüfen Sie die GetLegendGraphic Function.
