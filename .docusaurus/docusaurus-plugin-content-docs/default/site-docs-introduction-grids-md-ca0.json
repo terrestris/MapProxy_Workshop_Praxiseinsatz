@@ -1,0 +1,23 @@
+{
+  "unversionedId": "introduction/grids",
+  "id": "introduction/grids",
+  "title": "Grids",
+  "description": "- Grid = Kachelgitter",
+  "source": "@site/docs/introduction/grids.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/grids",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/grids",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Caches",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/part2"
+  },
+  "next": {
+    "title": "Bausteine",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/config/bausteine"
+  }
+}

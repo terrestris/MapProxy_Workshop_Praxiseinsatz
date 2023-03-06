@@ -1,0 +1,23 @@
+{
+  "unversionedId": "config/config",
+  "id": "config/config",
+  "title": "Konfiguration",
+  "description": "MapProxy wird mittels übersichtlicher yaml-Dateien konfiguriert, wobei ebenso eine JSON-Konfiguration gültig ist. Sämtliche Beispiele in der Dokumentation sind in YAML beschrieben.",
+  "source": "@site/docs/config/config.md",
+  "sourceDirName": "config",
+  "slug": "/config/",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/config/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Grids",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/grids"
+  },
+  "next": {
+    "title": "Bausteine",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/config/bausteine"
+  }
+}

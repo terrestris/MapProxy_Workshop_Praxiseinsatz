@@ -1,0 +1,103 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/MapProxy_Workshop_Praxiseinsatz/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/MapProxy_Workshop_Praxiseinsatz/docs",
+          "mainDocId": "introduction/intro",
+          "docs": [
+            {
+              "id": "config/bausteine",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/config/bausteine",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "config/config",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/config/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "config/mapproxy.yaml",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/config/mapproxy.yaml",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "config/seed.yaml",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/config/seed.yaml",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "exercises/caches",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/caches",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "exercises/exercises",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "exercises/seeding",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/seeding",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "exercises/setup",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "exercises/sources",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/sources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/caches",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/caches",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/grids",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/grids",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/installation",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/intro",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction/sources",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/sources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "practical_tips/tips",
+              "path": "/MapProxy_Workshop_Praxiseinsatz/docs/practical_tips/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/",
+                "label": "Einleitung"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

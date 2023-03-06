@@ -1,0 +1,24 @@
+{
+  "unversionedId": "introduction/caches",
+  "id": "introduction/caches",
+  "title": "Caches",
+  "description": "Caches",
+  "source": "@site/docs/introduction/03-caches.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/caches",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/caches",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quellen",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/sources"
+  },
+  "next": {
+    "title": "Grids",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/grids"
+  }
+}

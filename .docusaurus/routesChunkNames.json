@@ -1,0 +1,126 @@
+{
+  "/MapProxy_Workshop_Praxiseinsatz/__docusaurus/debug-5f9": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---map-proxy-workshop-praxiseinsatz-docusaurus-debug-770-916"
+    }
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/__docusaurus/debug/config-168": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---map-proxy-workshop-praxiseinsatz-docusaurus-debug-770-916"
+    }
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/__docusaurus/debug/content-2d2": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---map-proxy-workshop-praxiseinsatz-docusaurus-debug-770-916"
+    },
+    "allContent": "allContent---map-proxy-workshop-praxiseinsatz-docusaurus-debug-content-246-45e"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/__docusaurus/debug/globalData-b0a": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---map-proxy-workshop-praxiseinsatz-docusaurus-debug-770-916"
+    }
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/__docusaurus/debug/metadata-13a": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---map-proxy-workshop-praxiseinsatz-docusaurus-debug-770-916"
+    }
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/__docusaurus/debug/registry-f2a": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---map-proxy-workshop-praxiseinsatz-docusaurus-debug-770-916"
+    }
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/__docusaurus/debug/routes-613": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---map-proxy-workshop-praxiseinsatz-docusaurus-debug-770-916"
+    }
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/markdown-page-975": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---map-proxy-workshop-praxiseinsatz-markdown-page-094-22f"
+    },
+    "content": "content---map-proxy-workshop-praxiseinsatz-markdown-page-393-bd4"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs-c57": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---map-proxy-workshop-praxiseinsatz-docs-589-e16"
+    },
+    "versionMetadata": "versionMetadata---map-proxy-workshop-praxiseinsatz-docs-935-bd6"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/config/-09b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-config-cfd-79b"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/config/bausteine-9fc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-config-bausteine-0-c-0-f76"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/config/mapproxy.yaml-643": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-config-mapproxy-yaml-40-c-b63"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/config/seed.yaml-f15": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-config-seed-yamlf-21-1c0"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/-477": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-exercises-cd-3-c34"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/caches-34b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-exercises-caches-928-c5b"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/seeding-064": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-exercises-seeding-90-b-f64"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/setup-1e8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-exercises-setup-2-b-6-d68"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/sources-ea3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-exercises-sources-185-62a"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/-657": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-introduction-8-d-5-260"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/caches-7b8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-introduction-caches-11-f-8dc"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/grids-128": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-introduction-grids-4-a-9-679"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/installation-4f2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-introduction-installation-222-a8b"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/sources-78f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-introduction-sourcesa-49-b06"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/docs/practical_tips/-085": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---map-proxy-workshop-praxiseinsatz-docs-practical-tips-975-517"
+  },
+  "/MapProxy_Workshop_Praxiseinsatz/-a85": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---map-proxy-workshop-praxiseinsatz-markdown-page-094-22f"
+    },
+    "config": "config---map-proxy-workshop-praxiseinsatz-5-e-9-ad8"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "docs/exercises/seeding",
+  "id": "docs/exercises/seeding",
+  "title": "Seeding",
+  "description": "Aufgabe 1:",
+  "source": "@site/docs/docs/exercises/seeding.md",
+  "sourceDirName": "docs/exercises",
+  "slug": "/docs/exercises/seeding",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/docs/exercises/seeding",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/exercises/seeding.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Caches",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/docs/exercises/caches"
+  },
+  "next": {
+    "title": "Setup",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/docs/exercises/setup"
+  }
+}

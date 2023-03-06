@@ -1,0 +1,23 @@
+{
+  "unversionedId": "exercises/setup",
+  "id": "exercises/setup",
+  "title": "Setup",
+  "description": "Aufgabe 1:",
+  "source": "@site/docs/exercises/setup.md",
+  "sourceDirName": "exercises",
+  "slug": "/exercises/setup",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/setup",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Seeding",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/seeding"
+  },
+  "next": {
+    "title": "Sources",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/sources"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "introduction/sources",
+  "id": "introduction/sources",
+  "title": "Quellen",
+  "description": "- WMS (1.0.0/1.1.0/1.1.1/1.3.0)",
+  "source": "@site/docs/introduction/sources.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/sources",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/sources",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Grids",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/grids"
+  },
+  "next": {
+    "title": "Bausteine",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/config/bausteine"
+  }
+}

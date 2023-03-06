@@ -1,0 +1,19 @@
+{
+  "unversionedId": "exercises/sources",
+  "id": "exercises/sources",
+  "title": "Sources",
+  "description": "Aufgabe 1:",
+  "source": "@site/docs/exercises/sources.md",
+  "sourceDirName": "exercises",
+  "slug": "/exercises/sources",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/sources",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Seeding",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/seeding"
+  }
+}

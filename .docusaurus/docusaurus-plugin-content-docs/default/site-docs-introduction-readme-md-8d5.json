@@ -1,0 +1,26 @@
+{
+  "unversionedId": "introduction/intro",
+  "id": "introduction/intro",
+  "title": "Einleitung",
+  "description": "Einleitung MapProxy Workshop",
+  "source": "@site/docs/introduction/README.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "intro",
+    "title": "Einleitung",
+    "description": "Einleitung MapProxy Workshop",
+    "sidebar_position": 1,
+    "sidebar_label": "Einleitung"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Installation",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/introduction/installation"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "config/mapproxy.yaml",
+  "id": "config/mapproxy.yaml",
+  "title": "mapproxy.yaml",
+  "description": "Layers",
+  "source": "@site/docs/config/02-mapproxy.yaml.md",
+  "sourceDirName": "config",
+  "slug": "/config/mapproxy.yaml",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/config/mapproxy.yaml",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bausteine",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/config/bausteine"
+  },
+  "next": {
+    "title": "Seeding",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/config/seed.yaml"
+  }
+}

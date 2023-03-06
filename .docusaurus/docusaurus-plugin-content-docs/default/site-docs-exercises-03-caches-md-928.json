@@ -1,0 +1,24 @@
+{
+  "unversionedId": "exercises/caches",
+  "id": "exercises/caches",
+  "title": "Caches",
+  "description": "Aufgabe 1",
+  "source": "@site/docs/exercises/03-caches.md",
+  "sourceDirName": "exercises",
+  "slug": "/exercises/caches",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/caches",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sources",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/sources"
+  },
+  "next": {
+    "title": "Seeding",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/seeding"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "docs/exercises/caches",
+  "id": "docs/exercises/caches",
+  "title": "Caches",
+  "description": "Aufgabe 1:",
+  "source": "@site/docs/docs/exercises/caches.md",
+  "sourceDirName": "docs/exercises",
+  "slug": "/docs/exercises/caches",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/docs/exercises/caches",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/exercises/caches.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Seeding",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/config/seed.yaml"
+  },
+  "next": {
+    "title": "Seeding",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/docs/exercises/seeding"
+  }
+}

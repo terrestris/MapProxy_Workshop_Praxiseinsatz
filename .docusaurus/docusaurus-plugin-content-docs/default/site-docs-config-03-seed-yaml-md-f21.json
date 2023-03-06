@@ -1,0 +1,24 @@
+{
+  "unversionedId": "config/seed.yaml",
+  "id": "config/seed.yaml",
+  "title": "Seeding",
+  "description": "- Flexibles erzeugen, aktualisieren, löschen",
+  "source": "@site/docs/config/03-seed.yaml.md",
+  "sourceDirName": "config",
+  "slug": "/config/seed.yaml",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/config/seed.yaml",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "mapproxy.yaml",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/config/mapproxy.yaml"
+  },
+  "next": {
+    "title": "Übungsaufgaben",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/exercises/"
+  }
+}

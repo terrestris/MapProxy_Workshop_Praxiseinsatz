@@ -1,0 +1,24 @@
+{
+  "unversionedId": "docs/config/seed.yaml",
+  "id": "docs/config/seed.yaml",
+  "title": "Seeding",
+  "description": "- Flexibles erzeugen, aktualisieren, löschen",
+  "source": "@site/docs/docs/config/seed.yaml.md",
+  "sourceDirName": "docs/config",
+  "slug": "/docs/config/seed.yaml",
+  "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/docs/config/seed.yaml",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/config/seed.yaml.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "mapproxy.yaml",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/docs/config/mapproxy.yaml"
+  },
+  "next": {
+    "title": "Caches",
+    "permalink": "/MapProxy_Workshop_Praxiseinsatz/docs/docs/exercises/caches"
+  }
+}
