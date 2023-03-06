@@ -17,7 +17,7 @@ mapproxy-util create -t base-config mapproxy-ws
 ```
 
 ## Aufgabe 3
-Navigieren Sie in den neu erstellen Ordner (```cd mapproxy-ws```) und betrachten Sie die Dateien (z.B. mit ```ll -lah```).
+Navigieren Sie in den neu erstellen Ordner (```cd mapproxy-ws```) und betrachten Sie die Dateien (z.B. mit ```ls -lah```).
 
 In diesem Workshop werden wir hauptsächlich die Dateien `mapproxy.yaml` und `seed.yaml` arbeiten. Sie enthalten eine Beispiel-Konfiguration, die zunächst auf der MapProxy-Demo Seite betrachtet werden kann.
 
