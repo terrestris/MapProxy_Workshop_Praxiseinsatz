@@ -30,7 +30,7 @@ seeds:
 </details>
 
 Führen Sie die Seeding Task interaktiv aus:   
-`mapproxy-seed -s seed.yaml -f mapproxy.yml -i`
+`mapproxy-seed -s seed.yaml -f mapproxy.yaml -i`
 
 Probieren Sie Parameter `--summary` und `--dry-run` aus.
 
