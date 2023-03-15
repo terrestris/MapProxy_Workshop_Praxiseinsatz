@@ -60,7 +60,16 @@ URL: https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2022_true_rgbi
 Layer: 0  
 Der Layer soll ebenso in der Version 1.3.0 angefragt werden und außerdem mit transparenten Kacheln.
 
+
 ## Aufgabe 5
+Definieren Sie eine weitere WMS Source mit den Namen `ortsteile`:  
+URL: `https://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_alkis`   
+Layer: `34`  
+Transparent, Version 1.3.0
+
+## Bonus 🎁
+
+## Aufgabe 6
 Beide Layer sollen nur für Berlin abgefragt werden. Hierfür muss eine Coverage definiert werden.
 Hier führen mehrere Wege zum Ziel! Am einfachsten ist die Angabe einer Bounding Box, möglich ist aber auch die Angabe des Coverages durch externe Geodaten (Shape, GeoJSON, PostGIS) oder simple WKT-Dateien (siehe: https://mapproxy.org/docs/latest/coverages.html#coverages).  
 
@@ -83,13 +92,13 @@ Vergessen Sie nicht, den MapProxy Demo Server wieder zu starten.
     wms_opts:
       version: 1.3.0
     coverage:
-      datasource: ./berlin_bezirke.json
+      datasource: ./berlin_bezirke.geojson
       srs: EPSG:4326
 ```
 </p>
 </details>
 
-## Aufgabe 6
+## Aufgabe 7
 Standardmäßig liefert MapProxy folgende EPSG-Codes aus:
 ```
 <CRS>EPSG:4258</CRS>
@@ -119,7 +128,7 @@ services:
 </p>
 </details>
 
-# Aufgabe 7
+# Aufgabe 8
 Beide Sourcen sollen nur in `EPSG:25833` angefragt werden.
 
 <details><summary>Lösung</summary>
@@ -137,14 +146,8 @@ sources:
       version: 1.3.0
       legendgraphic: true
     coverage:
-      datasource: ./berlin_bezirke.json
+      datasource: ./berlin_bezirke.geojson
       srs: EPSG:4326
 ```
 </p>
 </details>
-
-## Aufgabe 8
-Definieren Sie eine weitere WMS Source mit den Namen `ortsteile`:  
-URL: `https://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_alkis`   
-Layer: `34`  
-Transparent, Version 1.3.0
