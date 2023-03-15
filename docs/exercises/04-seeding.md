@@ -22,7 +22,7 @@ coverages:
 seeds:
   dop20_seed:
     caches: [dop20_cache]
-    grids: [utm33n_adv]
+    grids: [webmercator]
     coverages: [mitte]
     levels: [7,8,9,10]
 ```

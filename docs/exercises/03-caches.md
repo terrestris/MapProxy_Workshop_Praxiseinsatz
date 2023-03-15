@@ -43,6 +43,8 @@ caches:
 
 Erzeugen Sie manuell Cache Tiles und beobachten Sie das Ergebnis im Cache Ordner. Welche Vorteile hat das `sqlite` Format gegenüber dem Cache Typ `file`?
 
+## Bonus 🎁
+
 ## Aufgabe 3
 Der Cache wird momentan im default Grid `webmercator` angelegt. Dies soll auf UTM 33N geändert werden.  
 Definieren Sie ein neues Grid für die UTM Zone 33N (EPSG:25833):  
