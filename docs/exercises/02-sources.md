@@ -56,7 +56,7 @@ Stellen Sie die WMS-Version der neuen Source auf 1.3.0 und aktivieren Sie `legen
 
 ## Aufgabe 4
 Fügen Sie eine weitere Source und einen entsprechenden Layer für den DOP 20 2022 Dienst Berlins hinzu.  
-URL:  
+URL: https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2022_true_rgbi
 Layer: 0  
 Der Layer soll ebenso in der Version 1.3.0 angefragt werden und außerdem mit transparenten Kacheln.
 
@@ -67,7 +67,8 @@ Hier führen mehrere Wege zum Ziel! Am einfachsten ist die Angabe einer Bounding
 Wechseln Sie ins Terminal, stoppen Sie den MapProxy Demo Server (Strg+C) und laden Sie mit folgendem Befehl die Umrisse Berlins herunter (Quelle: daten.odis-berlin.de:  
 `wget https://tsb-opendata.s3.eu-central-1.amazonaws.com/bezirksgrenzen/bezirksgrenzen.geojson -O berlin_bezirke.geojson`
 
-Verwenden Sie das heruntergeladene `geojson`, um die Coverage für beide Sourcen zu definieren.
+Verwenden Sie das heruntergeladene `geojson`, um die Coverage für beide Sourcen zu definieren.  
+Vergessen Sie nicht, den MapProxy Demo Server wieder zu starten.
 
 <details><summary>Lösung (für eine source)</summary>
 <p>
