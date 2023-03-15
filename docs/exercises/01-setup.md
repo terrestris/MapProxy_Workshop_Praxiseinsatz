@@ -9,6 +9,8 @@ mapproxy-util --version
 
 Auf der OS Geo LIVE 15 ist MapProxy in der Version 1.15.1 installiert. Infos über neue Features oder Änderungen in neuen Versionen sind im jeweiligen [Blog-Eintrag](https://mapproxy.org/blog/new-mapproxy-1.15.1-release/) oder direkt im [Changelog](https://github.com/mapproxy/mapproxy/blob/master/CHANGES.txt) zu finden.
 
+⚠️ Sollte die Tastaturbelegung noch auf US gestellt sein (siehe unten rechts in der Taskleiste), öffnen Sie ein Terminal (Strg+T) und führen Sie folgenen Befehl aus: setxkbmap -layout de
+
 ## Aufgabe 2
 Erstellen Sie eine Basis-Konfiguration in dem Ordner `mapproxy-ws`
 
