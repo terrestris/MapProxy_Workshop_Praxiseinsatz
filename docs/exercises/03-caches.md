@@ -10,7 +10,7 @@ Erzeugen Sie manuell Requests an den Layer, um den Cache aufzubauen. Hierzu zoom
 ```yaml
 layers:
   - name: dop20
-    title: DOP20 Berlin 2022
+    title: DOP20 Hamburg
     sources: [dop20_cache, ortsteile_source]
 
 caches:
@@ -50,9 +50,9 @@ Der Cache wird momentan im default Grid `webmercator` angelegt. Dies soll auf UT
 Definieren Sie ein neues Grid für die UTM Zone 33N (EPSG:25833):  
 
 ```yaml
-  utm33n_adv:
-    bbox: [-464849.38,  5057815.86857567, 787494.89142433, 6310160.14]
-    srs: "EPSG:25833"
+  utm32_adv:
+    bbox: [-46133.17, 5048875.26857567, 1206211.10142433, 6301219.54]
+    srs: 'EPSG:25832'
     origin: ul
     res:
       - 4891.96981025128
@@ -70,7 +70,6 @@ Definieren Sie ein neues Grid für die UTM Zone 33N (EPSG:25833):
       - 1.19432856695588
       - 0.597164283477939
       - 0.298582141738970
-      - 0.149291070869485
 ```
 
 > ☝ Informationen über das AdV Grid: WMTS Profil unter https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/AdV-Profile/
@@ -86,11 +85,10 @@ Verwenden Sie das neue Grid für den Cache `dop_20_cache`.
 ```yaml
 caches:
   dop20_cache:
-    grids: [utm33n_adv]
+    grids: [utm32n_adv]
     sources: [dop20_source]
     cache:
       type: sqlite
 ```
 </p>
 </details>
-

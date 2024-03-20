@@ -3,12 +3,12 @@
 Es gibt verschiende Möglichkeiten MapProxy zu installieren:
 - Systemweite Installation (wie auf der OS Geo Live)  
 - Virtual Environment ([Anleitung](https://mapproxy.org/docs/latest/install.html#create-a-new-virtual-environment))
-- Über ein docker image (z.B. [kartoza](https://hub.docker.com/r/kartoza/mapproxy))
+- Über ein [docker image](https://mapproxy.github.io/mapproxy/install_docker.html)
 
 Für Linux-Distributionen gibt es fertige Paktequellen, die bspw. für Ubuntu über `sudo apt-get install mapproxy` installiert werden können.  
 ⚠️ Hierbei handelt es sich oftmals nicht um die aktuelle Version. Zudem ist nicht garantiert, dass alle benötigten Paktequellen installiert werden.  
 
-Es wird empfholen, MapProxy über eine Virtual Environment zu installieren. Eine `virtualenv` ist eine in sich geschlossene Python-Installation, in der Sie beliebige Python-Pakete installieren können, ohne die Systeminstallation zu beeinflussen.
+Es wird empfohlen, MapProxy über eine Virtual Environment zu installieren. Eine `virtualenv` ist eine in sich geschlossene Python-Installation, in der Sie beliebige Python-Pakete installieren können, ohne die Systeminstallation zu beeinflussen.
 
 
 ## Abhängigkeiten

@@ -55,26 +55,25 @@ Stellen Sie die WMS-Version der neuen Source auf 1.3.0 und aktivieren Sie `legen
 </details>
 
 ## Aufgabe 4
-Fügen Sie eine weitere Source und einen entsprechenden Layer für den DOP 20 2022 Dienst Berlins hinzu.  
-URL: https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2022_true_rgbi
-Layer: 0  
-Der Layer soll ebenso in der Version 1.3.0 angefragt werden und außerdem mit transparenten Kacheln.
-
+Fügen Sie eine weitere Source und einen entsprechenden Layer für den DOP 20 Dienst Hamburgs hinzu.  
+URL: https://geodienste.hamburg.de/HH_WMS_DOP
+Layer: `dop_rgb_0_5000`  
+Der Layer soll ebenso in der Version 1.3.0 angefragt werden und zudem mit transparenten Kacheln.
 
 ## Aufgabe 5
 Definieren Sie eine weitere WMS Source mit den Namen `ortsteile`:  
-URL: `https://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_alkis`   
-Layer: `34`  
+URL: `https://geodienste.hamburg.de/HH_WMS_Sturmflut`   
+Layer: `ueberschwemmung_1962`  
 Transparent, Version 1.3.0
 
 ## Bonus 🎁
 
 ## Aufgabe 6
-Beide Layer sollen nur für Berlin abgefragt werden. Hierfür muss eine Coverage definiert werden.
+Beide Layer sollen nur für den Hamburger Süden abgefragt werden. Hierfür muss eine Coverage definiert werden.
 Hier führen mehrere Wege zum Ziel! Am einfachsten ist die Angabe einer Bounding Box, möglich ist aber auch die Angabe des Coverages durch externe Geodaten (Shape, GeoJSON, PostGIS) oder simple WKT-Dateien (siehe: https://mapproxy.org/docs/latest/coverages.html#coverages).  
 
-Wechseln Sie ins Terminal, stoppen Sie den MapProxy Demo Server (Strg+C) und laden Sie mit folgendem Befehl die Umrisse Berlins herunter (Quelle: daten.odis-berlin.de:  
-`wget https://tsb-opendata.s3.eu-central-1.amazonaws.com/bezirksgrenzen/bezirksgrenzen.geojson -O berlin_bezirke.geojson`
+Wechseln Sie ins Terminal, stoppen Sie den MapProxy Demo Server (Strg+C) und laden Sie mit folgendem Befehl die Statistischen Gebiete Hamburgs herunter (Quelle: https://api.hamburg.de/datasets/v1/statistische_gebiete:  
+`wget https://api.hamburg.de/datasets/v1/statistische_gebiete/collections/statistische_gebiete/items?bbox=9.8123%2C53.4142%2C10.1045%2C53.5396&limit=200&f=json -O hh_süd.geojson`
 
 Verwenden Sie das heruntergeladene `geojson`, um die Coverage für beide Sourcen zu definieren.  
 Vergessen Sie nicht, den MapProxy Demo Server wieder zu starten.
@@ -86,13 +85,13 @@ Vergessen Sie nicht, den MapProxy Demo Server wieder zu starten.
   dop20_source:
     type: wms
     req:
-      url: https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2022_true_rgbi
-      layers: 0
+      url: https://geodienste.hamburg.de/HH_WMS_DOP
+      layers: dop_rgb_0_5000
       transparent: true
     wms_opts:
       version: 1.3.0
     coverage:
-      datasource: ./berlin_bezirke.geojson
+      datasource: ./hh_süd.geojson
       srs: EPSG:4326
 ```
 </p>
