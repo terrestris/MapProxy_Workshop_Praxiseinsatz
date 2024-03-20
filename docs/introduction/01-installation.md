@@ -2,8 +2,8 @@
 
 Es gibt verschiende Möglichkeiten MapProxy zu installieren:
 - Systemweite Installation (wie auf der OS Geo Live)  
-- Virtual Environment ([Anleitung](https://mapproxy.org/docs/latest/install.html#create-a-new-virtual-environment))
-- Über ein [docker image](https://mapproxy.github.io/mapproxy/install_docker.html)
+- Virtual Environment ([Anleitung](https://mapproxy.github.io/mapproxy/latest/install.html#create-a-new-virtual-environment))
+- Über ein [docker image](https://mapproxy.github.io/mapproxy/latest/install_docker.html)
 
 Für Linux-Distributionen gibt es fertige Paktequellen, die bspw. für Ubuntu über `sudo apt-get install mapproxy` installiert werden können.  
 ⚠️ Hierbei handelt es sich oftmals nicht um die aktuelle Version. Zudem ist nicht garantiert, dass alle benötigten Paktequellen installiert werden.  
@@ -29,7 +29,7 @@ Es verschiedene Möglichkeiten für ein Produktiv-Setup:
 
 1. Direkte Auslieferung
 2. Verwendung eines Proxys
-3. [Emedding](https://mapproxy.org/docs/1.13.0/deployment.html#apache-mod-wsgi) (z.B. über `mod_wsgi` extension in Apache)
+3. [Emedding](https://mapproxy.github.io/mapproxy/latest/deployment.html#apache-mod-wsgi) (z.B. über `mod_wsgi` extension in Apache)
 
 ![Deployment Varianten](/img/deployment_variants.png)
 

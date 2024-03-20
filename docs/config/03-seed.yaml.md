@@ -57,4 +57,4 @@ Paralleles Seeden:
 % mapproxy-seed -s seed.yaml -f mapproxy.yaml -c 4
 ```
 
-Der Seeding-Prozess kann unterbrochen und forgesetzt werden sowie terminiert werden (siehe: https://mapproxy.org/docs/latest/seed.html#options).
+Der Seeding-Prozess kann unterbrochen und forgesetzt werden sowie terminiert werden (siehe: https://mapproxy.github.io/mapproxy/latest/seed.html#options).

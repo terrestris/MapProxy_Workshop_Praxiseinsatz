@@ -7,7 +7,7 @@ Als Seeding wird das automatische Generieren von Caches bezeichnet. Hierbei frag
 Definieren Sie einen Seed Task in der `seed.yaml` für die Level 6-8 des `dop20_cache`. Hierbei soll ein Coverage verwendet werden, das nur den Bezirk Mitte abbildet.  
 Hinweise: Existierende `seed.yaml` als Basis nehmen.
 
-🕵 Dokumentation: https://mapproxy.org/docs/nightly/seed.html
+🕵 Dokumentation: https://mapproxy.github.io/mapproxy/latest/seed.html
 
 <details><summary>Lösung angepasste seed.yaml</summary>
 <p>
